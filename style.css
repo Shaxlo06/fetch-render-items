@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    width: 233px;
+    height: 123px;
+    vertical-align: middle;
+}
+
+.img-p {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1180px;
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;    
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 35px;
+}
+
+.card {
+    position: relative;
+    width: 261px;
+    height: 318px;
+    padding: 16px 12px;
+    background-color: #D9D9D9;
+    border-radius: 4px;
+}
+
+.card:hover {
+    transform: scale(1.05, 1.05);
+    transition-duration: 0.4s;
+}
+
+p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    right: 22px;
+    bottom: 22px;
+}
